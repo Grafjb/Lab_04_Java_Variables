@@ -72,7 +72,6 @@ public class Main {
         String fullName = "John Doe"; // Your full name
         System.out.println("Your full name is: " + fullName);
 
-
     }
 
 }
