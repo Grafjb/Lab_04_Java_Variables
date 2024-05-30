@@ -42,13 +42,35 @@ public class Main {
         System.out.println("The quotient using doubles of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
 
         double myLunchCost = 12.50;
-        int numberOfKidsInFamily = 3;
+        int daysInWeek = 5; // Number of days in a week
+        double totalLunchCost = myLunchCost * daysInWeek;
+        System.out.println("The total cost of lunch for a week is: $" + totalLunchCost);
+
+        int numberOfKidsInFamily1 = 2;
+        int numberOfKidsInFamily2 = 3;
+        int numberOfKidsInFamily3 = 4;
+        int totalKids = numberOfKidsInFamily1 + numberOfKidsInFamily2 + numberOfKidsInFamily3;
+        System.out.println("The total number of kids in three families is: " + totalKids);
+
         boolean isRaining = false;
-        double priceOfGallonOfGas = 3.25;
-        int favoriteNumber = 7;
-        double shoeSize = 9.5;
-        String birthMonth = "October";
-        String fullName = "John Doe";
+        System.out.println("Is it raining? " + (isRaining ? "Yes" : "No"));
+
+        double gasPricePerGallon = 3.50; // Price of gas per gallon
+        double gallonsFilled = 15.5; // Amount of gas filled
+        double totalCost = gasPricePerGallon * gallonsFilled;
+        System.out.println("The total cost of filling up the gas tank is: $" + totalCost);
+
+        int favoriteNumber = 7; // Your favorite number
+        System.out.println("Your favorite number is: " + favoriteNumber);
+
+        double shoeSize = 9.5; // Your shoe size
+        System.out.println("Your shoe size is: " + shoeSize);
+
+        String birthMonth = "October"; // Your birth month
+        System.out.println("Your birth month is: " + birthMonth);
+
+        String fullName = "John Doe"; // Your full name
+        System.out.println("Your full name is: " + fullName);
 
 
     }
